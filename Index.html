@@ -1,0 +1,101 @@
+<!--This edit connects the boards and home pages together
+Jacobey West
+jazjacobeywest@gmail.com
+5/28/2025-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jacobey West's Wbpage</title>
+    <link rel="stylesheet" href="Main.css">
+    <script src="code.js"></script>
+    <style>
+        th, td{
+            border: 3px solid rgb(90, 13, 66);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to Jacobey West's Webpage</h1>
+    </header>
+    <nav>
+        <h2>Navigation</h2>
+        <h3><a href="./Index.html"> Home</a><br>
+            <a href="./Boards.html">Boards</a><br>
+            <a href="./Game.html"> Game Page</a><br>
+            <a href="./Strings.html"> Input Validation Page</a>
+        </h3>
+    </nav>
+    <p>
+        I am a student Game Designer learning CSC-102, Summer, 2024, my teacher is Prof. Pretor
+
+    </p>
+
+    <marquee id="myMarquee" direction="right" scrollamount="25"><img id="memeImage" src="Bean Picture.webp"></marquee>
+    <!--Creates marquee for slide-->
+    <br>
+    <br>
+    <center>
+        <button id="startButton" onclick="startFun();" class="ButtonStrt">Start</button>
+        <button id="stopButton" onclick="stopFun();"
+            class="ButtonStp">Stop</button><!--These are the buttons we'll press in order to move the image around-->
+    </center>
+    <br>
+    <br>
+    <!--we will put a table withing the local double br space here-->
+    <h2>Halo Wars' Spirit of Fire Leaders position and service time on the Spirit of Fire.</h2><br>
+    <table style="width: 50%;" id="table">
+<colgroup>
+    <col span="1" style="width: 7.5%;">
+    <col span="1" style="width: 10%;">
+    <col span="1" style="width: 10%;">
+    <col span="1" style="width: 10%;">
+</colgroup>
+        <tr>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Inservice Till</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>Captain</td>
+            <td>James Cutter</td>
+            <td>2525-Present</td>
+            <td>In Action</th>
+        </tr>
+
+        <tr>
+            <td>Seargant</td>
+            <td>Jhon Forge</td>
+            <td>Early 2531-Late 2531</td>
+            <td>KIA</th>
+        </tr>
+
+        <tr>
+            <td>ONI Scientist</td>
+            <td>Ellen Anders</td>
+            <td>2531-2559</td>
+            <td>MIA</th>
+        </tr>
+    </table>
+    <br>
+    <br>
+
+    <img src="Shrekophone.jpg" onclick="ShrekophoneSound();"><br>
+    <footer>
+        Jacobey West<br>
+        University of Advancing Technology<br>
+        2625 W Baseline Rd, Tempe, AZ 85283<br>
+        (800)658-5744
+    </footer>
+</body>
+<!--Assignment 11.1 Sound
+This assignment involves us playing a sound with a picture.
+My sound is Shreckophone, real name De Hofnar - Zonnestraal (MÖWE Remix)
+Shrekophone: https://www.youtube.com/watch?v=z_HWtzUHm6s
+-->
+
+</html>

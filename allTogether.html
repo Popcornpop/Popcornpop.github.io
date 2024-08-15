@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--This is the final project for this class(CSC102), we need to use 3 items from the following list:
+decision logic (if/else), loops, string manipulation, validation, classes, and objects
+
+Jacobey West
+8/15/2024 jazjacobeywest@gmail.com
+
+
+
+For my project I will make a timer you can set and it'll count down to zero, on which it will play a sound to alert
+you it's finished
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Together now, a Final Project</title>
+    <link rel="stylesheet" href="Main.css">
+    <script src="code.js"></script>
+</head>
+<body>
+    <h1>This is the final project for my csc102 Class for summer of 2024</h1>
+    <h3>You should have at least 3 items from this list - decision logic (if/else), loops, string manipulation, 
+        validation, classes, and objects</h3>
+        
+        <br>
+        <br>
+        <h3>The number of seconds left:</h3><br>
+        <!-- This is where the time is displayed-->
+        <div id ="timeLeft"> Press Submit to Begin Counter</div>
+        <form id="secSubmit" onsubmit="return false">
+            Enter number of seconds: <input type="number" id="secInput"><br><!--Gives time input-->
+            <br>
+            <input type="submit" onclick="startTimer();"><!--Starts the timer in JS-->
+        </form>
+
+        <br>
+        <br>
+       <center> <img src="FlowV1.jpg"></center><!--Flowchart-->
+</body>
+</html>
